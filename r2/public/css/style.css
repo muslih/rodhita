@@ -1101,8 +1101,8 @@ section.landing h1 {
   font-size: 300%;
 }
 section.landing p, section.landing label, section.landing aside td, aside section.landing td, .tab section.landing ul, .tab section.landing ol, section.landing footer li a, footer li section.landing a {
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 15px;
+  line-height: 28px;
 }
 section img {
   width: 100%;
