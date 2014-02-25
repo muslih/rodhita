@@ -828,8 +828,8 @@ nav .cari input {
   position: absolute;
   right: 0;
   width: 100px;
-  top: 40px;
-  bottom: 150px;
+  padding-top: 15px;
+  top: -145px;
 }
 
 #prevBtn, #nextBtn, #pauseBtn {
@@ -1078,8 +1078,21 @@ section:after, aside:after {
 section {
   background: rgba(255, 255, 255, 0.9);
 }
-section h4 {
-  margin: 0 0 10px 0;
+section h2 {
+  margin: 0 0 15px 0;
+  color: navy;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  border-bottom: solid 1px #d4d4d4;
+}
+section h3 {
+  margin: 10px 0;
+  color: red;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+section p, section label, section aside td, aside section td, .tab section ul, .tab section ol, section footer li a, footer li section a {
+  line-height: 20px;
 }
 section label {
   line-height: 25px;
