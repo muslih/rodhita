@@ -280,9 +280,9 @@ img {
 }
 
 .baris {
+  width: 100%;
   margin: 0 auto;
   position: relative;
-  width: 978px;
   *zoom: 1;
 }
 .baris:after {
@@ -350,6 +350,15 @@ img {
   width: 100%;
 }
 
+@media only screen and (max-width: 767px) {
+  .baris {
+    max-width: 767px;
+  }
+  .baris [class*="zeen"] {
+    width: 100%;
+    margin-left: 0;
+  }
+}
 /*******************************************************************************/
 /*	general
 /*******************************************************************************/
@@ -374,6 +383,10 @@ h1, h2, h3, h4, h5 {
 
 a {
   text-decoration: none;
+}
+
+.alpha {
+  margin-left: 0;
 }
 
 select {
@@ -1091,6 +1104,14 @@ section h3 {
   color: red;
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
+}
+section h4 {
+  padding-bottom: 5px;
+  color: #000;
+  font-size: 90%;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  border-bottom: dashed 1px #d4d4d4;
 }
 section p, section label, section aside td, aside section td, .tab section ul, .tab section ol, section footer li a, footer li section a {
   line-height: 20px;
