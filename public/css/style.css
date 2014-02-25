@@ -280,9 +280,9 @@ img {
 }
 
 .baris {
-  width: 100%;
   margin: 0 auto;
   position: relative;
+  max-width: 978px;
   *zoom: 1;
 }
 .baris:after {
