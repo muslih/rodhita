@@ -782,7 +782,6 @@ nav .logo {
   display: none;
   padding: 2px 0;
   border: none;
-  margin-right: 15px;
 }
 nav .logo:hover {
   -webkit-box-shadow: 0 0 0 white;
@@ -799,7 +798,6 @@ nav a {
   text-decoration: none;
   font-size: 13px;
   padding: 10px;
-  border-left: solid 1px #eee;
 }
 nav a:hover {
   -webkit-transition-duration: 0.5s;
@@ -807,31 +805,10 @@ nav a:hover {
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
   color: #02659c !important;
-  -webkit-box-shadow: 0 2px 0 #02659c inset;
-  -moz-box-shadow: 0 2px 0 #02659c inset;
-  box-shadow: 0 2px 0 #02659c inset;
 }
-nav li:last-child a {
-  border-right: solid 1px #eee;
-}
-nav .cari {
-  color: #02659c;
-  padding: 2px 0 3px 0;
-  border-left: solid 1px #eee;
-}
-nav .cari input {
-  border: none;
-}
-nav .cari i {
-  padding: 0 10px;
-  line-height: 30px;
-}
-nav .cari input {
-  font-size: 13px;
-  color: #444;
-  margin-bottom: 0 !important;
-  padding-right: 0;
-  min-width: 100px;
+nav a.aktif {
+  color: #02659c !important;
+  font-weight: bold;
 }
 
 /*******************************************************************************/
@@ -1091,6 +1068,31 @@ section:after, aside:after {
 section {
   background: rgba(255, 255, 255, 0.9);
   margin-bottom: 60px;
+}
+section.landing {
+  margin-top: 35%;
+  background: transparent;
+  color: #fff;
+}
+section.landing h1, section.landing h2 {
+  font-family: "Roboto", sans-serif;
+  text-align: right;
+  color: #fff;
+  border-bottom: none;
+  text-shadow: 0 0 5px #444444;
+}
+section.landing h1 a, section.landing h2 a {
+  color: #fff;
+}
+section.landing h1 {
+  font-size: 300%;
+}
+section .breadcumb {
+  text-shadow: 0 0 5px #444444;
+  position: absolute;
+  top: 10px;
+  font-size: 13px;
+  color: #fff;
 }
 section h2 {
   margin: 0 0 15px 0;

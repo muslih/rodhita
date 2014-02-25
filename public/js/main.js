@@ -30,7 +30,15 @@
     preload: true
   })("overlay");
 
-  $(function() {});
+  $(function() {
+    $('section').slideUp();
+    return $('section.landing').slideDown();
+  });
+
+  $("nav a").click(function() {
+    $('section').slideDown();
+    return $('section.landing').slideUp();
+  });
 
   $("#prevBtn").click(function() {
     return $.vegas('next');
@@ -58,6 +66,13 @@
     var body;
     body = $('html').height();
     return $('#slider').find('li').css('height', body + 'px');
+  });
+
+  $(function() {
+    return $('nav a').on('click', function(event) {
+      $('nav').children().children().children().removeClass('aktif');
+      return $(this).addClass('aktif');
+    });
   });
 
   $(function() {
