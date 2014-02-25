@@ -828,6 +828,7 @@ nav .cari input {
   position: absolute;
   right: 0;
   width: 100px;
+  top: 40px;
   bottom: 150px;
 }
 

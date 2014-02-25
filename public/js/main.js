@@ -30,6 +30,10 @@
     preload: true
   })("overlay");
 
+  $(function() {
+    return $('section').hide();
+  });
+
   $("#prevBtn").click(function() {
     return $.vegas('next');
   });
