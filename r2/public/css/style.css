@@ -1116,14 +1116,14 @@ section .breadcumb {
 }
 section h2 {
   margin: 0 0 15px 0;
-  color: navy;
+  color: #02659c;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   border-bottom: solid 1px #d4d4d4;
 }
 section h3 {
   margin: 10px 0;
-  color: red;
+  color: #d40000;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
 }
