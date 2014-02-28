@@ -87,7 +87,7 @@
     kontab.first().show();
     return navtab.on('click', function(event) {
       $('.kon' + $(this).attr('class')).slideDown();
-      $('.kon' + $(this).attr('class')).siblings().slideUp();
+      $('.kon' + $(this).attr('class')).siblings('section').slideUp();
       navtab.removeClass('aktif');
       return $(this).addClass('aktif');
     });
