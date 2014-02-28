@@ -35,11 +35,6 @@
     return $('section.landing').slideDown();
   });
 
-  $("nav a").click(function() {
-    $('section').slideDown();
-    return $('section.landing').slideUp();
-  });
-
   $("#prevBtn").click(function() {
     return $.vegas('next');
   });
