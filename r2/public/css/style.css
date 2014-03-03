@@ -1090,13 +1090,30 @@ section.landing {
   color: #fff;
 }
 section.landing h1, section.landing h2, section.landing p, section.landing label, section.landing aside td, aside section.landing td, section.landing footer li a, footer li section.landing a {
+  background: rgba(68, 68, 68, 0.5);
+  padding: 10px;
   font-family: "Open Sans", sans-serif;
   color: #fff;
   border-bottom: none;
   text-shadow: 0 0 5px #444444;
 }
 section.landing h1 a, section.landing h2 a, section.landing p a, section.landing label a, section.landing aside td a, aside section.landing td a, section.landing footer li a a, footer li section.landing a a {
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
   color: #fff;
+}
+section.landing h1 a:hover, section.landing h2 a:hover, section.landing p a:hover, section.landing label a:hover, section.landing aside td a:hover, aside section.landing td a:hover, section.landing footer li a a:hover, footer li section.landing a a:hover {
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  color: #d40000;
+}
+section.landing h1, section.landing h2, section.landing p, section.landing label, section.landing aside td, aside section.landing td, section.landing footer li a, footer li section.landing a, section.landing table {
+  float: left;
+  clear: left;
 }
 section.landing h1 {
   font-size: 300%;
