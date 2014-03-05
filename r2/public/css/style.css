@@ -1325,6 +1325,42 @@ section table.tablereg td select {
   margin: 0;
 }
 
+.tablestye thead {
+  background: #02659c;
+  color: #fff;
+}
+.tablestye thead td {
+  padding: 0 10px;
+  font-weight: bold;
+}
+.tablestye tbody tr {
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  border-bottom: solid 1px #ddd;
+}
+.tablestye tbody tr:hover {
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background: #fff;
+}
+.tablestye tbody tr:nth-child(odd) {
+  background: #DBDBDB;
+}
+.tablestye tbody tr:nth-child(odd):hover {
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background: #fff;
+}
+.tablestye tbody td {
+  padding: 0 10px;
+}
+
 .profile h4 {
   margin: 0;
   color: #02659c;
