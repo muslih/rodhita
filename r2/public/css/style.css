@@ -1325,6 +1325,15 @@ section table.tablereg td select {
   margin: 0;
 }
 
+li {
+  line-height: 25px;
+}
+li span {
+  display: block;
+  color: #747474;
+  font-style: italic;
+}
+
 .tablestye thead {
   background: #02659c;
   color: #fff;
